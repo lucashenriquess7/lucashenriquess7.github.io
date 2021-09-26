@@ -1,226 +1,262 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
-    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type='text/javascript' src='https://code.jquery.com/jquery-compat-git.js'></script>
-    <script type='text/javascript' src='https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js'></script>
-    <title>Portfólio</title>
-  </head>
-  <body>
 
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" /> -->
+  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-compat-git.js'></script>
+  <script type='text/javascript' src='https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js'></script>
+  <!-- <script src="https://kit.fontawesome.com/d20aa8466e.js" crossorigin="anonymous"></script> -->
+  <title> Aline Balvedi | Psicóloga</title>
+</head>
 
-        <div class="hamburguer">
-          <div class="line" id="line1"></div>
-          <div class="line" id="line2"></div>
-          <div class="line" id="line3"></div>
-          <span>fechar</span>
-        </div>  
+<body>
 
-        <header id="home">
-            <div class="img-wrapper">
-                <img src="imagens/paisagem.jpg" alt="">
-            </div>
-            <div class="banner">
-                <h1>Psicóloga </h1>
-                <p>Aline</p>
-                <!-- <button>Saiba mais</button> -->
-            </div>
-        </header>
+  <div class="container">
 
-        <aside class="sidebar">
-          <nav>
-            <ul class="menu">
-              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
-              <!-- <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li> -->
-              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-              <!-- <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li> -->
-            </ul>
-          </nav>
-          <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-github-alt"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </div>
-        </aside>
-
-        <section class="sessao-conhecimentos" id="conhecimentos">
-          <div class="sessao-header">
-            <h1>Conhecimentos</h1>
-          </div>
-          <div class="conhecimentos">
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fab fa-html5"></i>
-                <h3>HTML</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel obcaecati eaque quos, labore quibusdam incidunt dolores vitae velit voluptates esse omnis enim, dolorem eveniet. Rem ab obcaecati totam ipsum!</p>
-              </div>
-            </div>
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fab fa-css3-alt"></i>
-                <h3>CSS</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed aspernatur eos commodi ex nostrum consequuntur aut vero cum illum perferendis earum, eveniet hic itaque. Quod.</p>
-              </div>
-            </div>
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fas fa-pencil-alt"></i>
-                <h3>Design</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia aut?</p>
-              </div>
-            </div>
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fab fa-js"></i>
-                <h3>Javascript</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
-                </p>
-              </div>
-            </div>
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fab fa-bootstrap"></i>
-                <h3>Boostrap</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi, quas illo dolor totam voluptas pariatur harum blanditiis veritatis culpa doloremque aspernatur nesciunt dicta iure fuga similique ad, ut impedit.</p>
-              </div>
-            </div>
-            <div class="conhecimento">
-              <div class="conhecimento-header">
-                <i class="fab fa-github"></i>
-                <h3>Git e GitHub</h3>
-              </div>
-              <div class="conhecimento-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione, molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex laborum!</p>
-              </div>
-            </div>
-            <div class="conhecimentos-img-wrapper">
-              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
-            </div>
-          </div>
-        </section>
-
-        <div class="sessao-projetos" id="projetos">
-          <div class="sessao-header">
-            <h1>Projetos</h1>
-          </div>
-          <div class="projetos">
-            <div class="card">
-              <div class="card-img-wrapper">
-                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
-              </div>
-              <div class="card-info">
-                <h2>ToDo List</h2>
-                <h3>Javascript</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam doloribus eos consequatur expedita architecto hic?</p>
-                <button class="btn">Saiba Mais</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img-wrapper">
-                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
-              </div>
-              <div class="card-info">
-                <h2>Maratona</h2>
-                <h3>HTML, CSS</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
-                <button class="btn">Saiba Mais</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img-wrapper">
-                <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
-              </div>
-              <div class="card-info">
-                <h2>Casa Bela</h2>
-                <h3>HTML</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
-                <button class="btn">Saiba Mais</button>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-        <section class="sessao-contato" id="contato">
-          <div class="contato-wrapper">
-            <div class="contato-left"></div>
-            <div class="contato-right">
-              <h1>Contato</h1>
-              <form action="https://api.staticforms.xyz/submit" method="post" id="envioEmail">
-                <input type="hidden" name="accessKey" value="e1771f5b-a506-4157-9225-351005284e04"> <!-- Required -->
-                <div class="input-group">
-                  <input type="text" class="field" name="name" id="nome" required>
-                  <label for="nome" class="field-label">Nome</label>
-                </div>
-                <div class="input-group">
-                  <input type="text" class="field" name="email" id="email" required>
-                  <label for="email" class="field-label">E-mail</label>
-                </div>
-                <div class="input-group">
-                  <input type="text" class="field" name="phone" id="phone" required>
-                  <label for="phone" class="field-label">Telefone/Celular</label>
-                </div>
-                <div class="input-group">
-                  <textarea class="field" name="message" id="mensagem"></textarea>
-                  <label for="mensagem" class="field-label">Mensagem</label>
-                </div>
-                <button type="submit" onclick="verificaContato()" class="btn btn-submit">Enviar</button>
-              </form>
-            </div>
-          </div>
-        </section>
-
+    <section class="header-site">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.347901048197!2d-51.462104570807924!3d-23.55437496967716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ec9964bab8710b%3A0xec3344168bdfd964!2sR.%20Dr.%20Nagib%20Daher%2C%20568%20-%20Centro%2C%20Apucarana%20-%20PR%2C%2086800-040!5e0!3m2!1spt-BR!2sbr!4v1622933814478!5m2!1spt-BR!2sbr" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
-
-        <div id="qlwapp" class="qlwapp-free qlwapp-button qlwapp-bottom-left qlwapp-all qlwapp-rounded qlwapp-js-ready desktop">
-          <div class="qlwapp-container">
-                <a style="background-color: #34af23;" class="qlwapp-toggle" data-action="open" data-phone="5543991291009" data-message="Olá Mariana, Gostaria de receber mais informações de como funciona a psicoterapia com você. Obrigado(a)." href="javascript:void(0);" target="_blank">
-                        <i class="fa fa-whatsapp"></i>
-                    <!-- <i class="qlwapp-close" data-action="close">×</i> -->
-                        <span class="qlwapp-text">Chat Whats</span>
-                  </a>
-          </div>
-        </div>
-        <footer>
-          <div class="footer-content">
-            <div class="social-list">
-              <ul>
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-              </ul>
+          <div class="col-12">
+            <div class="banner">
+              <h1 style="text-align: center;">Psicóloga Aline Balvedi </h1>
             </div>
           </div>
-        </footer>
-        <a href="#home" id="link-topo">
-          <i class="fas fa-arrow-up"></i>
-        </a>
-    </div>
-   </body>
+        </div>
+      </div>
+    </section>
 
-   <script src="script.js"></script>
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>fechar</span>
+    </div>
+
+    <!-- <header id="home">
+      <div class="img-wrapper">
+        <img src="imagens/paisagem.jpg" alt="">
+      </div>
+      <div class="banner">
+        <h1>Psicóloga </h1>
+        <p>Aline</p>
+        <button>Saiba mais</button>
+      </div>
+    </header> -->
+
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <!-- <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li> -->
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+          <!-- <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li> -->
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github-alt"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel obcaecati eaque quos, labore quibusdam
+              incidunt dolores vitae velit voluptates esse omnis enim, dolorem eveniet. Rem ab obcaecati totam ipsum!
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed
+              aspernatur eos commodi ex nostrum consequuntur aut vero cum illum perferendis earum, eveniet hic itaque.
+              Quod.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Design</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi
+              doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia
+              aut?</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit
+              ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione
+              quisquam?
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-bootstrap"></i>
+            <h3>Boostrap</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi, quas illo dolor totam voluptas
+              pariatur harum blanditiis veritatis culpa doloremque aspernatur nesciunt dicta iure fuga similique ad, ut
+              impedit.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione,
+              molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex
+              laborum!</p>
+          </div>
+        </div>
+        <div class="conhecimentos-img-wrapper">
+          <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+        </div>
+      </div>
+    </section>
+
+    <div class="sessao-projetos" id="projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/foto1.png" alt="imagem do projeto ToDo" />
+          </div>
+          <div class="card-info">
+            <h2>ToDo List</h2>
+            <h3>Javascript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam
+              doloribus eos consequatur expedita architecto hic?</p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/foto2.png" alt="imagem do projeto Maratona" />
+          </div>
+          <div class="card-info">
+            <h2>Maratona</h2>
+            <h3>HTML, CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas
+              ipsam ullam consectetur ab facilis cumque.</p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="imagens/foto3.png" alt="imagem do projeto Casa Bela" />
+          </div>
+          <div class="card-info">
+            <h2>Casa Bela</h2>
+            <h3>HTML</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi
+              placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+
+      </section>
+
+      <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post" id="envioEmail">
+              <input type="hidden" name="accessKey" value="e1771f5b-a506-4157-9225-351005284e04"> <!-- Required -->
+              <div class="input-group">
+                <input type="text" class="field" name="name" id="nome" required>
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" name="email" id="email" required>
+                <label for="email" class="field-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" name="phone" id="phone" required>
+                <label for="phone" class="field-label">Telefone/Celular</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" name="message" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" onclick="verificaContato()" class="btn btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.347901048197!2d-51.462104570807924!3d-23.55437496967716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ec9964bab8710b%3A0xec3344168bdfd964!2sR.%20Dr.%20Nagib%20Daher%2C%20568%20-%20Centro%2C%20Apucarana%20-%20PR%2C%2086800-040!5e0!3m2!1spt-BR!2sbr!4v1622933814478!5m2!1spt-BR!2sbr"
+            width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div id="qlwapp"
+        class="qlwapp-free qlwapp-button qlwapp-bottom-left qlwapp-all qlwapp-rounded qlwapp-js-ready desktop">
+        <div class="qlwapp-container">
+          <a style="background-color: #34af23;" class="qlwapp-toggle" data-action="open" data-phone="5543991291009"
+            data-message="Olá Mariana, Gostaria de receber mais informações de como funciona a psicoterapia com você. Obrigado(a)."
+            href="javascript:void(0);" target="_blank">
+            <!-- <i class="fab fa-whatsapp" style="margin-right: 10px;"></i> Whatsapp -->
+            <!-- <i class="qlwapp-close" data-action="close">×</i>
+                    <span class="qlwapp-text"> </span> -->
+          </a>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="social-list">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
 </html>
